@@ -1,0 +1,11 @@
+{
+    "name": "Galaxy NES Plugin",
+    "platform": "nes",
+    "guid": "454d829d-2367-4414-b33d-1e5c138eebdf",
+    "version": "0.1.0",
+    "description": "Galaxy NES Plugin",
+    "author": "AHCoder",
+    "email": "",
+    "url": "https://github.com/AHCoder/galaxy-integration-nes",
+    "script": "plugin.py"
+}
