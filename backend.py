@@ -36,10 +36,10 @@ class BackendClient:
 
 
     def get_rom_names(self):
-        # Search through directory for nes files (NES roms)
+        # Search through directory for nes, fds, nsf, nsfe, and unf files (NES roms)
         for root, dirs, files in os.walk(user_config.roms_path):
             for file in files:
-               if file.endswith(".nes") or file.endswith(".fds"):
+               if file.endswith((".nes", ".fds", ".nsf", ".nsfe", ".unf")):
                     self.paths.append([os.path.join(root, file)])
                     self.roms.append(os.path.splitext(os.path.basename(file))[0]) # Split name of file from it's path/extension
 
