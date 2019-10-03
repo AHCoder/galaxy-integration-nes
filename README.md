@@ -15,5 +15,5 @@ Download this repository, name it "nes_454d829d-2367-4414-b33d-1e5c138eebdf" and
 * Open user_config.py in your installation folder and set your folder path for your roms and your emulator path etc.
 
 1. When you have an account go here: https://www.giantbomb.com/api/
-2. Open "config.py" in your installation folder and set your API key:
+2. Open "user_config.py" in your installation folder and set your API key:
     * api_key = YOUR_KEY_GOES_HERE_IN_QUOTES i.e. api_key = "abcdefghijklmnopqrstuvwxyz"
