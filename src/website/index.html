@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NES Integration Configuration</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link href="css/main.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="imgbox">
+            <img class="center-fit" src="images/header.jpg">
+        </div>
+            
+        <div class="center-fit">
+            <form method="GET" action="/setconfig">
+                <fieldset>
+                    <div>
+                        <label>Roms location</label>
+                        <input class="input" name="romspath" type="text" placeholder="Enter the path to your roms folder without quotes, and single forward slashes">
+                    </div>
+
+                    <div>
+                        <label>Emulator location</label>
+                        <input class="input" name="emupath" type="text" placeholder="Optional: enter the path to your Mesen.exe">
+                    </div>
+
+                    <div>
+                        <label>API Key</label>
+                        <input class="input" name="apikey" type="text" placeholder="Required">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <label>Emulator Options</label>
+                    <div>
+                        <input type="checkbox" name="fullscreen" value="1">Fullscreen<br>
+                    </div>
+                </fieldset>
+                    
+                <div>
+                    <input type="submit" value="Submit" />
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

@@ -20,7 +20,7 @@ class BackendError(ApplicationError):
 
 class UnknownBackendResponse(ApplicationError):
     def __init__(self, data=None):
-        super().__init__(4, "Backend responded in uknown way", data)
+        super().__init__(4, "Backend responded in unknown way", data)
 
 class TooManyRequests(ApplicationError):
     def __init__(self, data=None):
@@ -33,10 +33,6 @@ class InvalidCredentials(ApplicationError):
 class NetworkError(ApplicationError):
     def __init__(self, data=None):
         super().__init__(101, "Network error", data)
-
-class LoggedInElsewhere(ApplicationError):
-    def __init__(self, data=None):
-        super().__init__(102, "Logged in elsewhere", data)
 
 class ProtocolError(ApplicationError):
     def __init__(self, data=None):

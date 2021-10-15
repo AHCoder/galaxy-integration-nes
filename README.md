@@ -8,12 +8,9 @@ NES Integration for GOG Galaxy 2.0
 ## Requirements
 * A Giant Bomb account
 
+1. When you have an account go here: https://www.giantbomb.com/api/
+2. Note your API key
+
 ## Installation and Config
 
-Download this repository, name it "nes_454d829d-2367-4414-b33d-1e5c138eebdf" and put it in %LOCALAPPDATA%\GOG.com\Galaxy\plugins\installed
-
-* Open user_config.py in your installation folder and set your folder path for your roms and your emulator path etc.
-
-1. When you have an account go here: https://www.giantbomb.com/api/
-2. Open "user_config.py" in your installation folder and set your API key:
-    * api_key = YOUR_KEY_GOES_HERE_IN_QUOTES i.e. api_key = "abcdefghijklmnopqrstuvwxyz"
+Download this repo, place the "src" folder in the plugins/installed folder and rename it to "nes_454d829d-2367-4414-b33d-1e5c138eebdf"
